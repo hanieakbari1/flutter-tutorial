@@ -30,4 +30,20 @@ void main(){
   else{
     print(salary-(salary*0.12));
   }
+  var role="admin";
+  role=role.toLowerCase();
+  switch (role) {
+    case "admin":
+      print("welcome admin");
+      break;
+    case "user":
+      print("welcome user");
+      break;
+    case "guest":
+      print("welcome guest");
+      break;
+    default:
+      print("you shold have a role!");
+      break;
+  }
 }
